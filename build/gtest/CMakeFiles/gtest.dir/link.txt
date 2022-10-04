@@ -1,0 +1,2 @@
+/Users/mihailkozlov/miniforge3/bin/arm64-apple-darwin20.0.0-ar qc ../lib/libgtest.a "CMakeFiles/gtest.dir/gtest-all.cc.o"
+/Users/mihailkozlov/miniforge3/bin/llvm-ranlib ../lib/libgtest.a

@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		12B7A48277F04C2D8B979BF0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A1B6151BC584171AB2C087C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1AEC38E1679C9B6DCF72FF5F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				97CF8DA73EF14376831643D4 /* PBXTargetDependency */,
+				BAD8A8C9682149EDBB339153 /* PBXTargetDependency */,
+				2C78CA75F712430F9AD563F8 /* PBXTargetDependency */,
+				F98D7C92399947C3AC0A547E /* PBXTargetDependency */,
+				D101E261652A4F95B5E414A5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		221251CE0547468CA5789161 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 729DBB10182B438E95735FCF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				08EB067627D569F292927F54 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		269F5E3C92F749C48D848C18 /* /Users/mihailkozlov/Desktop/data_struct/include/sturct.h */ = {isa = PBXBuildFile; fileRef = 76CAC6825A764DEA80AF4265 /* /Users/mihailkozlov/Desktop/data_struct/include/sturct.h */; };
+		461F585F31AD4908B1AF16E8 /* /Users/mihailkozlov/Desktop/data_struct/src/struct.cpp */ = {isa = PBXBuildFile; fileRef = BDEE621E6F844DBCAFE741A5 /* /Users/mihailkozlov/Desktop/data_struct/src/struct.cpp */; };
+		4DA45AE1966F4C46A6201530 /* /Users/mihailkozlov/Desktop/data_struct/test/test_tset.cpp */ = {isa = PBXBuildFile; fileRef = 7BB2151506A549288B56FFFB /* /Users/mihailkozlov/Desktop/data_struct/test/test_tset.cpp */; };
+		4E22B36E47E04D6C8B8C89D7 /* /Users/mihailkozlov/Desktop/data_struct/samples/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5103C23F09D14BA6B0087565 /* /Users/mihailkozlov/Desktop/data_struct/samples/CMakeLists.txt */; };
+		7AF4F43EB57D45FD80378661 /* /Users/mihailkozlov/Desktop/data_struct/test/test_tbitfield.cpp */ = {isa = PBXBuildFile; fileRef = 08D60D50C14E48E1AD41129D /* /Users/mihailkozlov/Desktop/data_struct/test/test_tbitfield.cpp */; };
+		7F663F5CB7BA4FE39F95CCE8 /* /Users/mihailkozlov/Desktop/data_struct/samples/sample_prime_numbers.cpp */ = {isa = PBXBuildFile; fileRef = 985241D3B8274247A135AF9D /* /Users/mihailkozlov/Desktop/data_struct/samples/sample_prime_numbers.cpp */; };
+		90328C3D9881462D8B4D3629 /* /Users/mihailkozlov/Desktop/data_struct/gtest/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = C2D325D819424CF8801BCA56 /* /Users/mihailkozlov/Desktop/data_struct/gtest/gtest-all.cc */; };
+		C7B9E62361D04348B93EA0AA /* /Users/mihailkozlov/Desktop/data_struct/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 484DCA09288344D89B67FEE5 /* /Users/mihailkozlov/Desktop/data_struct/test/test_main.cpp */; };
+		D13645843F1C453FBBA9036A /* /Users/mihailkozlov/Desktop/data_struct/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E93763CBFD1542E18F4C0407 /* /Users/mihailkozlov/Desktop/data_struct/test/CMakeLists.txt */; };
+		D2FB58AF903A46A18995D3A9 /* /Users/mihailkozlov/Desktop/data_struct/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1B4AC99206C14604ACC0D8DD /* /Users/mihailkozlov/Desktop/data_struct/src/CMakeLists.txt */; };
+		F6641F20047240388EC88A6E /* /Users/mihailkozlov/Desktop/data_struct/gtest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4C0D39670DC34BC3BD542ED4 /* /Users/mihailkozlov/Desktop/data_struct/gtest/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3AE669882FAF49A7A21489BB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		83B431C199DD425BAC789AFD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		47C7B60075DD409C8D009165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221251CE0547468CA5789161;
+			remoteInfo = ZERO_CHECK;
+		};
+		5D3416EED7574E539ADB66C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221251CE0547468CA5789161;
+			remoteInfo = ZERO_CHECK;
+		};
+		602CFF935F484DD18610C126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B188CD1248CF453B9ECE5DFE;
+			remoteInfo = test_data_structures;
+		};
+		76C44CC21659470CB35A6F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF77ABD926F4B15BC04D1E5;
+			remoteInfo = sample_prime_numbers;
+		};
+		9A8799C882DD4B2B98411634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30022D089D74A0D9A037893;
+			remoteInfo = gtest;
+		};
+		B2D5C30F2EB34EB5A1BEB061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221251CE0547468CA5789161;
+			remoteInfo = ZERO_CHECK;
+		};
+		C7D849AABFAC45EEA089D8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0ACDA6205446A4B6CCDB68;
+			remoteInfo = data_structures;
+		};
+		C95D3D6ABE7944178A07FE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0ACDA6205446A4B6CCDB68;
+			remoteInfo = data_structures;
+		};
+		D7FC934F53874D2F8A708B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0ACDA6205446A4B6CCDB68;
+			remoteInfo = data_structures;
+		};
+		EBF9F398BA8A4A2F8A044CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221251CE0547468CA5789161;
+			remoteInfo = ZERO_CHECK;
+		};
+		F30CC7EAF7C646B79EFED4E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221251CE0547468CA5789161;
+			remoteInfo = ZERO_CHECK;
+		};
+		FDB525D89943409081F5F0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F7233E4784538ABD89CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30022D089D74A0D9A037893;
+			remoteInfo = gtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D60D50C14E48E1AD41129D /* /Users/mihailkozlov/Desktop/data_struct/test/test_tbitfield.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_tbitfield.cpp; path = test/test_tbitfield.cpp; sourceTree = SOURCE_ROOT; };
+		1B4AC99206C14604ACC0D8DD /* /Users/mihailkozlov/Desktop/data_struct/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		36CD0D16E15C4C1B8C95854F /* sample_prime_numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample_prime_numbers; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0B4F2427274E1688ABE397 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DCA09288344D89B67FEE5 /* /Users/mihailkozlov/Desktop/data_struct/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		4C0D39670DC34BC3BD542ED4 /* /Users/mihailkozlov/Desktop/data_struct/gtest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = gtest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E57FEFB56C244869100C02F /* data_structures */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libdata_structures.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5103C23F09D14BA6B0087565 /* /Users/mihailkozlov/Desktop/data_struct/samples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = samples/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		52EA5BB233C84447987D6A31 /* /Users/mihailkozlov/Desktop/data_struct/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76CAC6825A764DEA80AF4265 /* /Users/mihailkozlov/Desktop/data_struct/include/sturct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sturct.h; path = include/sturct.h; sourceTree = SOURCE_ROOT; };
+		7BB2151506A549288B56FFFB /* /Users/mihailkozlov/Desktop/data_struct/test/test_tset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_tset.cpp; path = test/test_tset.cpp; sourceTree = SOURCE_ROOT; };
+		985241D3B8274247A135AF9D /* /Users/mihailkozlov/Desktop/data_struct/samples/sample_prime_numbers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sample_prime_numbers.cpp; path = samples/sample_prime_numbers.cpp; sourceTree = SOURCE_ROOT; };
+		BDEE621E6F844DBCAFE741A5 /* /Users/mihailkozlov/Desktop/data_struct/src/struct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = struct.cpp; path = src/struct.cpp; sourceTree = SOURCE_ROOT; };
+		C2D325D819424CF8801BCA56 /* /Users/mihailkozlov/Desktop/data_struct/gtest/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "gtest/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		C5CB15DC6CA8465B8691C239 /* test_data_structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test_data_structures; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93763CBFD1542E18F4C0407 /* /Users/mihailkozlov/Desktop/data_struct/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4A388373A142C5860B42B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6140CA25AAAD4073B6612146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFBD715E41843B784EE6EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97B6926092E4A758E936114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A78F843EDA24E609CB7E78A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				985241D3B8274247A135AF9D /* /Users/mihailkozlov/Desktop/data_struct/samples/sample_prime_numbers.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1870F889001548ECA844D12F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D325D819424CF8801BCA56 /* /Users/mihailkozlov/Desktop/data_struct/gtest/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1AE4BAF82B754309AC165190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FEFB56C244869100C02F /* data_structures */,
+				3B0B4F2427274E1688ABE397 /* gtest */,
+				36CD0D16E15C4C1B8C95854F /* sample_prime_numbers */,
+				C5CB15DC6CA8465B8691C239 /* test_data_structures */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		328695C619D5409C8963FE61 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		52BD8ABA1F3745588D7CB0B2 /* test_data_structures */ = {
+			isa = PBXGroup;
+			children = (
+				BF42745FA97545DCBA618467 /* Source Files */,
+				E93763CBFD1542E18F4C0407 /* /Users/mihailkozlov/Desktop/data_struct/test/CMakeLists.txt */,
+			);
+			name = test_data_structures;
+			sourceTree = "<group>";
+		};
+		86835407EE9047CD98D60F74 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE621E6F844DBCAFE741A5 /* /Users/mihailkozlov/Desktop/data_struct/src/struct.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		87D25FDBF0924DAA9473E620 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				328695C619D5409C8963FE61 /* CMake Rules */,
+				52EA5BB233C84447987D6A31 /* /Users/mihailkozlov/Desktop/data_struct/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AB36AC5361D241D89FA4E37E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB9339038234ACEB88C0578 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				1870F889001548ECA844D12F /* Source Files */,
+				4C0D39670DC34BC3BD542ED4 /* /Users/mihailkozlov/Desktop/data_struct/gtest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		B713FFF60A2A45DC960474D4 /* sample_prime_numbers */ = {
+			isa = PBXGroup;
+			children = (
+				0A78F843EDA24E609CB7E78A /* Source Files */,
+				5103C23F09D14BA6B0087565 /* /Users/mihailkozlov/Desktop/data_struct/samples/CMakeLists.txt */,
+			);
+			name = sample_prime_numbers;
+			sourceTree = "<group>";
+		};
+		B83D041922334D24A5E3DD75 = {
+			isa = PBXGroup;
+			children = (
+				87D25FDBF0924DAA9473E620 /* ALL_BUILD */,
+				E7D86538045A427A8F2DA549 /* data_structures */,
+				B713FFF60A2A45DC960474D4 /* sample_prime_numbers */,
+				ADB9339038234ACEB88C0578 /* gtest */,
+				52BD8ABA1F3745588D7CB0B2 /* test_data_structures */,
+				1AE4BAF82B754309AC165190 /* Products */,
+				AB36AC5361D241D89FA4E37E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF42745FA97545DCBA618467 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				484DCA09288344D89B67FEE5 /* /Users/mihailkozlov/Desktop/data_struct/test/test_main.cpp */,
+				08D60D50C14E48E1AD41129D /* /Users/mihailkozlov/Desktop/data_struct/test/test_tbitfield.cpp */,
+				7BB2151506A549288B56FFFB /* /Users/mihailkozlov/Desktop/data_struct/test/test_tset.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E7D86538045A427A8F2DA549 /* data_structures */ = {
+			isa = PBXGroup;
+			children = (
+				86835407EE9047CD98D60F74 /* Source Files */,
+				FC9066E86FB4423CB6F5E2D3 /* Header Files */,
+				1B4AC99206C14604ACC0D8DD /* /Users/mihailkozlov/Desktop/data_struct/src/CMakeLists.txt */,
+			);
+			name = data_structures;
+			sourceTree = "<group>";
+		};
+		FC9066E86FB4423CB6F5E2D3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				76CAC6825A764DEA80AF4265 /* /Users/mihailkozlov/Desktop/data_struct/include/sturct.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF77ABD926F4B15BC04D1E5 /* sample_prime_numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DC84835F2248CFB6F7E71A /* Build configuration list for PBXNativeTarget "sample_prime_numbers" */;
+			buildPhases = (
+				4E4BEBA17B3F46498C63A510 /* Sources */,
+				C97B6926092E4A758E936114 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A20A01436B4F6C97A351EC /* PBXTargetDependency */,
+				A24AFD00751E4D54A35A5F4B /* PBXTargetDependency */,
+			);
+			name = sample_prime_numbers;
+			productName = sample_prime_numbers;
+			productReference = 36CD0D16E15C4C1B8C95854F /* sample_prime_numbers */;
+			productType = "com.apple.product-type.tool";
+		};
+		A30022D089D74A0D9A037893 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2565444AFE46A9B7EB9597 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				4CFCDD50B701403DB5CA8A78 /* Sources */,
+				6140CA25AAAD4073B6612146 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23AD814214C41A588C04E88 /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 3B0B4F2427274E1688ABE397 /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B188CD1248CF453B9ECE5DFE /* test_data_structures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D1477B1B6F460B8CD44965 /* Build configuration list for PBXNativeTarget "test_data_structures" */;
+			buildPhases = (
+				47511C7E4089440D8AE632FC /* Sources */,
+				6CFBD715E41843B784EE6EDE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13631D1621A84E3BBAC643A8 /* PBXTargetDependency */,
+				6757F4EBB691403BB98D210C /* PBXTargetDependency */,
+				682E4BB2417D4279A688BD9B /* PBXTargetDependency */,
+			);
+			name = test_data_structures;
+			productName = test_data_structures;
+			productReference = C5CB15DC6CA8465B8691C239 /* test_data_structures */;
+			productType = "com.apple.product-type.tool";
+		};
+		DD0ACDA6205446A4B6CCDB68 /* data_structures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F6FB4FC0144B5FB7F2C89C /* Build configuration list for PBXNativeTarget "data_structures" */;
+			buildPhases = (
+				339C0CE5BADE4BA58A924C02 /* Sources */,
+				5A4A388373A142C5860B42B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9871E55A104731BCCE4BC8 /* PBXTargetDependency */,
+			);
+			name = data_structures;
+			productName = data_structures;
+			productReference = 4E57FEFB56C244869100C02F /* data_structures */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821F7233E4784538ABD89CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = F7CC0DD767B044AB9BC5134B /* Build configuration list for PBXProject "data_structures" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				83B431C199DD425BAC789AFD /* Debug */,
+				3AE669882FAF49A7A21489BB /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B83D041922334D24A5E3DD75;
+			projectDirPath = /Users/mihailkozlov/Desktop/data_struct;
+			projectRoot = "";
+			targets = (
+				12B7A48277F04C2D8B979BF0 /* ALL_BUILD */,
+				221251CE0547468CA5789161 /* ZERO_CHECK */,
+				DD0ACDA6205446A4B6CCDB68 /* data_structures */,
+				A30022D089D74A0D9A037893 /* gtest */,
+				5BF77ABD926F4B15BC04D1E5 /* sample_prime_numbers */,
+				B188CD1248CF453B9ECE5DFE /* test_data_structures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08EB067627D569F292927F54 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/mihailkozlov/Desktop/data_struct/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/mihailkozlov/Desktop/data_struct/build
+  make -f /Users/mihailkozlov/Desktop/data_struct/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/mihailkozlov/Desktop/data_struct/build
+  make -f /Users/mihailkozlov/Desktop/data_struct/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		1AEC38E1679C9B6DCF72FF5F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/mihailkozlov/Desktop/data_struct/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/mihailkozlov/Desktop/data_struct/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/mihailkozlov/Desktop/data_struct/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339C0CE5BADE4BA58A924C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F585F31AD4908B1AF16E8 /* /Users/mihailkozlov/Desktop/data_struct/src/struct.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47511C7E4089440D8AE632FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B9E62361D04348B93EA0AA /* /Users/mihailkozlov/Desktop/data_struct/test/test_main.cpp */,
+				7AF4F43EB57D45FD80378661 /* /Users/mihailkozlov/Desktop/data_struct/test/test_tbitfield.cpp */,
+				4DA45AE1966F4C46A6201530 /* /Users/mihailkozlov/Desktop/data_struct/test/test_tset.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFCDD50B701403DB5CA8A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90328C3D9881462D8B4D3629 /* /Users/mihailkozlov/Desktop/data_struct/gtest/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4BEBA17B3F46498C63A510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F663F5CB7BA4FE39F95CCE8 /* /Users/mihailkozlov/Desktop/data_struct/samples/sample_prime_numbers.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13631D1621A84E3BBAC643A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0ACDA6205446A4B6CCDB68 /* data_structures */;
+			targetProxy = D7FC934F53874D2F8A708B0D /* PBXContainerItemProxy */;
+		};
+		2C78CA75F712430F9AD563F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30022D089D74A0D9A037893 /* gtest */;
+			targetProxy = 9A8799C882DD4B2B98411634 /* PBXContainerItemProxy */;
+		};
+		6757F4EBB691403BB98D210C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30022D089D74A0D9A037893 /* gtest */;
+			targetProxy = FDB525D89943409081F5F0C0 /* PBXContainerItemProxy */;
+		};
+		682E4BB2417D4279A688BD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221251CE0547468CA5789161 /* ZERO_CHECK */;
+			targetProxy = 5D3416EED7574E539ADB66C8 /* PBXContainerItemProxy */;
+		};
+		97CF8DA73EF14376831643D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF77ABD926F4B15BC04D1E5 /* sample_prime_numbers */;
+			targetProxy = 76C44CC21659470CB35A6F7F /* PBXContainerItemProxy */;
+		};
+		A24AFD00751E4D54A35A5F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221251CE0547468CA5789161 /* ZERO_CHECK */;
+			targetProxy = B2D5C30F2EB34EB5A1BEB061 /* PBXContainerItemProxy */;
+		};
+		AD9871E55A104731BCCE4BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221251CE0547468CA5789161 /* ZERO_CHECK */;
+			targetProxy = 47C7B60075DD409C8D009165 /* PBXContainerItemProxy */;
+		};
+		BAD8A8C9682149EDBB339153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0ACDA6205446A4B6CCDB68 /* data_structures */;
+			targetProxy = C95D3D6ABE7944178A07FE5F /* PBXContainerItemProxy */;
+		};
+		D101E261652A4F95B5E414A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221251CE0547468CA5789161 /* ZERO_CHECK */;
+			targetProxy = F30CC7EAF7C646B79EFED4E9 /* PBXContainerItemProxy */;
+		};
+		D23AD814214C41A588C04E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221251CE0547468CA5789161 /* ZERO_CHECK */;
+			targetProxy = EBF9F398BA8A4A2F8A044CEC /* PBXContainerItemProxy */;
+		};
+		D4A20A01436B4F6C97A351EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0ACDA6205446A4B6CCDB68 /* data_structures */;
+			targetProxy = C7D849AABFAC45EEA089D8C4 /* PBXContainerItemProxy */;
+		};
+		F98D7C92399947C3AC0A547E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B188CD1248CF453B9ECE5DFE /* test_data_structures */;
+			targetProxy = 602CFF935F484DD18610C126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24F650DA8CD948A99706A187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk;
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/build;
+			};
+			name = Debug;
+		};
+		2A1016F365F9465391438FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/bin;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include     -DNDEBUG ";
+				OTHER_LDFLAGS = ("-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mihailkozlov/miniforge3/lib -L/Users/mihailkozlov/miniforge3/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/mihailkozlov/Desktop/data_struct/build/lib/Release/libdata_structures.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sample_prime_numbers;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/samples;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		31E4035C3ED244659FC195FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include    ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = data_structures;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3B4110BA6339497099BB2AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/bin;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,/Users/mihailkozlov/Desktop/data_struct/test/../3rdparty,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include    ";
+				OTHER_LDFLAGS = ("-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mihailkozlov/miniforge3/lib -L/Users/mihailkozlov/miniforge3/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/mihailkozlov/Desktop/data_struct/build/lib/Debug/libgtest.a,/Users/mihailkozlov/Desktop/data_struct/build/lib/Debug/libdata_structures.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_data_structures;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		47B28FB14AE04F5D972F02E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk;
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/build;
+			};
+			name = Release;
+		};
+		4F6C2B41BDDD4753889082FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		56287D1FF8D94C0898ABF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5DA907A4186B4DD7944EC403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		81ECECDCC85E46FB8C0A7650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/gtest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8C8E0594400C4116AFD9936B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/bin;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include    ";
+				OTHER_LDFLAGS = ("-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mihailkozlov/miniforge3/lib -L/Users/mihailkozlov/miniforge3/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/mihailkozlov/Desktop/data_struct/build/lib/Debug/libdata_structures.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sample_prime_numbers;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/samples;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9F713BEB1E254DE6BE1F9BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include    ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/gtest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A90B750C1DA64B78B35FFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/bin;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,/Users/mihailkozlov/Desktop/data_struct/test/../3rdparty,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include     -DNDEBUG ";
+				OTHER_LDFLAGS = ("-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mihailkozlov/miniforge3/lib -L/Users/mihailkozlov/miniforge3/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/mihailkozlov/Desktop/data_struct/build/lib/Release/libgtest.a,/Users/mihailkozlov/Desktop/data_struct/build/lib/Release/libdata_structures.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_data_structures;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BD1D0E8D7A424F47B8E7F63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mihailkozlov/Desktop/data_struct/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mihailkozlov/Desktop/data_struct/include,/Users/mihailkozlov/Desktop/data_struct/gtest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-ftree-vectorize -fPIC -fPIE -fstack-protector-strong     -pipe                -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/mihailkozlov/miniforge3/include     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = data_structures;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E50AC125F0D7423EB546EF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mihailkozlov/Desktop/data_struct/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F6FB4FC0144B5FB7F2C89C /* Build configuration list for PBXNativeTarget "data_structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E4035C3ED244659FC195FF /* Debug */,
+				BD1D0E8D7A424F47B8E7F63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2E2565444AFE46A9B7EB9597 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F713BEB1E254DE6BE1F9BA4 /* Debug */,
+				81ECECDCC85E46FB8C0A7650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41D1477B1B6F460B8CD44965 /* Build configuration list for PBXNativeTarget "test_data_structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4110BA6339497099BB2AEA /* Debug */,
+				A90B750C1DA64B78B35FFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		729DBB10182B438E95735FCF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA907A4186B4DD7944EC403 /* Debug */,
+				E50AC125F0D7423EB546EF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A1B6151BC584171AB2C087C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56287D1FF8D94C0898ABF8C5 /* Debug */,
+				4F6C2B41BDDD4753889082FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3DC84835F2248CFB6F7E71A /* Build configuration list for PBXNativeTarget "sample_prime_numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8E0594400C4116AFD9936B /* Debug */,
+				2A1016F365F9465391438FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7CC0DD767B044AB9BC5134B /* Build configuration list for PBXProject "data_structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F650DA8CD948A99706A187 /* Debug */,
+				47B28FB14AE04F5D972F02E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821F7233E4784538ABD89CEB /* Project object */;
+}

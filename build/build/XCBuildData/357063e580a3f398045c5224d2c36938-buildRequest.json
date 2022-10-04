@@ -1,0 +1,73 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "a48aeb2cb9f48830ecede2f4fce50021fc26611c5bf7c3c41ed575e76a70d0f5"
+    },
+    {
+      "guid" : "a48aeb2cb9f48830ecede2f4fce5002131de269ce5d091546254671e75e2c50a"
+    },
+    {
+      "guid" : "a48aeb2cb9f48830ecede2f4fce50021b4f564e93c77d81103ab38eb8970a3ce"
+    },
+    {
+      "guid" : "a48aeb2cb9f48830ecede2f4fce500219acde4fc7fc727f1ce5ab34f0cf30162"
+    },
+    {
+      "guid" : "a48aeb2cb9f48830ecede2f4fce5002191916027b468b895320dbce13c2126e5"
+    },
+    {
+      "guid" : "a48aeb2cb9f48830ecede2f4fce500216af010d0c00ca2b38e123f9e8ba34479"
+    }
+  ],
+  "containerPath" : "/Users/mihailkozlov/Desktop/data_struct/build/data_structures.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/mihailkozlov/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mihailkozlov/Library/Developer/Xcode/DerivedData/data_structures-eghrrqaktdyuzzbvixaeoahkvshj/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mihailkozlov/Library/Developer/Xcode/DerivedData/data_structures-eghrrqaktdyuzzbvixaeoahkvshj/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

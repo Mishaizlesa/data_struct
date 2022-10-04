@@ -1,0 +1,19 @@
+Target dependency graph (6 targets)
+ZERO_CHECK in data_structures, no dependencies
+data_structures in data_structures, depends on:
+ZERO_CHECK in data_structures (explicit)
+sample_prime_numbers in data_structures, depends on:
+data_structures in data_structures (explicit)
+ZERO_CHECK in data_structures (explicit)
+gtest in data_structures, depends on:
+ZERO_CHECK in data_structures (explicit)
+test_data_structures in data_structures, depends on:
+data_structures in data_structures (explicit)
+gtest in data_structures (explicit)
+ZERO_CHECK in data_structures (explicit)
+ALL_BUILD in data_structures, depends on:
+sample_prime_numbers in data_structures (explicit)
+data_structures in data_structures (explicit)
+gtest in data_structures (explicit)
+test_data_structures in data_structures (explicit)
+ZERO_CHECK in data_structures (explicit)

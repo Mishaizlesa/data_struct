@@ -1,0 +1,6 @@
+/Users/mihailkozlov/Desktop/data_struct/build/CMakeFiles/ALL_BUILD.dir
+/Users/mihailkozlov/Desktop/data_struct/build/CMakeFiles/ZERO_CHECK.dir
+/Users/mihailkozlov/Desktop/data_struct/build/src/CMakeFiles/data_structures.dir
+/Users/mihailkozlov/Desktop/data_struct/build/samples/CMakeFiles/sample_prime_numbers.dir
+/Users/mihailkozlov/Desktop/data_struct/build/gtest/CMakeFiles/gtest.dir
+/Users/mihailkozlov/Desktop/data_struct/build/test/CMakeFiles/test_data_structures.dir
